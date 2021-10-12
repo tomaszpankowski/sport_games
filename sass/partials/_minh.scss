@@ -5,6 +5,9 @@
     &-fit{
         min-height: fit-content;
     }
+    &-footer-adj{
+        @include calc-param(min-height,100vh,$footer__height);
+    }
     &-25vh{
         min-height: 25vh;
     }

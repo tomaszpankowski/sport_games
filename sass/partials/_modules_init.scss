@@ -1,3 +1,6 @@
+@include  aoa-bg-series($bg__classes,$bg__img-arr,0,"center","cover","scroll");
+  
+
 .text{
     &-shadow{
         text-shadow: $text-shadow;
