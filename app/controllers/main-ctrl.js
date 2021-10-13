@@ -1,3 +1,3 @@
-angular.module("app").controller("main-ctrl",function($scope){
+angular.module("app").controller("main-ctrl",function($scope,$sce){
 
 });
