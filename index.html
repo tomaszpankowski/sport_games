@@ -6,18 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
     <script src="angular-1.8.2/angular.min.js"></script>
     <script src="angular-1.8.2/angular-route.min.js"></script>
+    <script src="angular-1.8.2/angular-sanitize.min.js"></script>
     <!--temporary files to repace by built app link-->
     <script src="app/app.js"></script>
+    <script src="app/components/contact-form.js"></script>
+    <script src="app/components/contact-s1.js"></script>
+    <script src="app/components/contact-s2.js"></script>
     <script src="app/components/footer.js"></script>
+    <script src="app/components/login-form.js"></script>
+    <script src="app/components/navbar.js"></script>
+    <script src="app/components/register-form.js"></script>
     <script src="app/controllers/main-ctrl.js"></script>
     <!----------------------------------------------->
     <title></title>
 </head>
-<body class="bg-secondary minh-footer-adj d-flex align-items-center"
-    data-ng-controller="main-ctrl" data-ng-cloak>
-    <main class="ng-view w-100">
+<body class="bg-secondary"
+    data-ng-controller="main-ctrl" data-ng-cloak>    
+    <app-navbar></app-navbar>
+    <main class="ng-view">
         <div class=" text-center">
             <span class="spinner spinner-border text-light"></span>
             <p class="text-white fw-bold">Loading...</p>
