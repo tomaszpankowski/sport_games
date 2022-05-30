@@ -1,0 +1,63 @@
+.contact{
+    &-s1,&-s2,&-s3{
+        background-color: #999!important;
+        background-blend-mode: multiply!important;
+    }
+}
+.games{
+    &-s1,&-s2{
+        background-color: #999!important;
+        background-blend-mode: multiply!important;
+    }
+}
+.index,.calendar,.medals,.news,.user{
+    &-s1{
+        background-color: #999!important;
+        background-blend-mode: multiply!important;
+    }
+}
+.text{
+    &-shadow{
+        text-shadow: $text-shadow;
+    }
+}
+nav{
+    z-index: 10;
+}
+textarea{
+    resize: none;
+}
+
+@media all and (max-width: 767px){
+    .contact{
+        &-s1,&-s2{
+            *{
+                color: #fff !important;
+            }
+            background-color: #999!important;
+            background-blend-mode: multiply!important;
+            text-shadow: $text-shadow;
+        }
+    }
+    .index{
+        &-s1{
+            *{
+                color: #fff !important;
+            }
+            background-color: #999!important;
+            background-blend-mode: multiply!important;
+            text-shadow: $text-shadow;
+        }
+    }
+    .navbar{
+        &-nav{
+            *:hover{
+                opacity: 0.8;
+            }
+            background-color: #999!important;
+            border: 1px solid #666!important;
+            color: #333!important;
+            padding: 10px;
+        }
+    }
+}

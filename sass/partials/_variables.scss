@@ -1,14 +1,45 @@
+$prefix: "../img/";
+$bg__calendar-img: $prefix+"calendar/calendar-s1.jpg";
 $bg__coming-img: "../img/coming.jpg";
+$bg__contact-img: 
+    $prefix+"contact/contact-s1.jpg",
+    $prefix+"contact/contact-s2.jpg",
+    $prefix+"contact/contact-s3.jpg";
 $bg__error-img: "../img/error.jpg";
+$bg__games-img: 
+    $prefix+"games/games-s1.jpg",
+    $prefix+"games/games-s2.jpg";
+$bg__index-img: $prefix+"index/index-s1.jpg";
+$bg__medals-img: 
+    $prefix+"medals/medals-s1.jpg",
+    $prefix+"medals/medals-s2.jpg";
+$bg__news-img: 
+    $prefix+"news/news-s1.jpg",
+    $prefix+"news/news-s2.jpg";
 $bg__privacy-img: "../img/privacy.jpg";
+$bg__user-img: $prefix+"user/user-s1.jpg";
 $bg__classes:
+    "calendar",
     "coming",
+    "contact",
     "error",
-    "privacy";
+    "games",
+    "index",
+    "medals",
+    "news",
+    "privacy",
+    "user";
 $bg__img-arr: 
+    $bg__calendar-img,
     $bg__coming-img,
+    $bg__contact-img,
     $bg__error-img,
-    $bg__privacy-img;
+    $bg__games-img,
+    $bg__index-img,
+    $bg__medals-img,
+    $bg__news-img,
+    $bg__privacy-img,
+    $bg__user-img;
 $color__shadow: #333;
 $footer__height: 41px;
 $text-shadow: 1px 1px 3px $color__shadow; 
