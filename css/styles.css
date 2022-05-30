@@ -562,10 +562,114 @@ body, html {
   opacity: 0.9;
 }
 
+/* line 2, ../sass/partials/_modules.scss */
+.contact-s1, .contact-s2, .contact-s3 {
+  background-color: #999 !important;
+  background-blend-mode: multiply !important;
+}
+
+/* line 8, ../sass/partials/_modules.scss */
+.games-s1, .games-s2 {
+  background-color: #999 !important;
+  background-blend-mode: multiply !important;
+}
+
+/* line 14, ../sass/partials/_modules.scss */
+.index-s1, .calendar-s1, .medals-s1, .news-s1, .user-s1 {
+  background-color: #999 !important;
+  background-blend-mode: multiply !important;
+}
+
+/* line 20, ../sass/partials/_modules.scss */
+.text-shadow {
+  text-shadow: 1px 1px 3px #333;
+}
+
+/* line 24, ../sass/partials/_modules.scss */
+nav {
+  z-index: 10;
+}
+
+/* line 27, ../sass/partials/_modules.scss */
+textarea {
+  resize: none;
+}
+
+@media all and (max-width: 767px) {
+  /* line 33, ../sass/partials/_modules.scss */
+  .contact-s1, .contact-s2 {
+    background-color: #999 !important;
+    background-blend-mode: multiply !important;
+    text-shadow: 1px 1px 3px #333;
+  }
+  /* line 34, ../sass/partials/_modules.scss */
+  .contact-s1 *, .contact-s2 * {
+    color: #fff !important;
+  }
+
+  /* line 43, ../sass/partials/_modules.scss */
+  .index-s1 {
+    background-color: #999 !important;
+    background-blend-mode: multiply !important;
+    text-shadow: 1px 1px 3px #333;
+  }
+  /* line 44, ../sass/partials/_modules.scss */
+  .index-s1 * {
+    color: #fff !important;
+  }
+
+  /* line 53, ../sass/partials/_modules.scss */
+  .navbar-nav {
+    background-color: #999 !important;
+    border: 1px solid #666 !important;
+    color: #333 !important;
+    padding: 10px;
+  }
+  /* line 54, ../sass/partials/_modules.scss */
+  .navbar-nav *:hover {
+    opacity: 0.8;
+  }
+}
+/* line 31, ../sass/partials/_mixins.scss */
+.calendar-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/calendar/calendar-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* line 31, ../sass/partials/_mixins.scss */
 .coming-s1 {
   background-attachment: scroll;
   background-image: url(../img/coming.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.contact-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.contact-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact-s2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.contact-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact-s3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -581,9 +685,81 @@ body, html {
 }
 
 /* line 31, ../sass/partials/_mixins.scss */
+.games-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/games/games-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.games-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/games/games-s2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.index-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/index/index-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.medals-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/medals/medals-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.medals-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/medals/medals-s2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.news-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/news/news-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.news-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/news/news-s2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
 .privacy-s1 {
   background-attachment: scroll;
   background-image: url(../img/privacy.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.user-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/user/user-s1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
